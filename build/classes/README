@@ -1,0 +1,58 @@
+OO ANALYSIS, DESIGN AND PROGRAMMING
+COEN 275
+WINTER 2020
+
+TEAM PROJECT: TopQuiz
+
+Due Date: 13 March 2020
+
+Names: Shiva Keshav Govindaraju, Eric Piacentini
+
+TopQuiz is a Java Application developed with the intention of testing elementary-school 
+students in the United States on their knowledge of United States History and Civics.
+The application is intended for children around the ages of 8-10, and is poised to be 
+relatively challenging, though still within the expectation that children should know 
+basic facts about United States history and civics. Many of the questions in TopQuiz 
+are in fact taken from sample questions given on U.S. Citizenship exams.
+
+TopQuiz offers more than just the minimum requirements for a two-person project. We
+have also implemented multi-threading in order to add a Timer to each individual
+question, so that the user cannot simply take forever to answer each question. If 
+the user fails to answer the question in the time alloted, their result is taken as-is.  
+TopQuiz also displays a list of previous users' scores and the times they completed
+the quiz at the end of the Quiz, as a means of showing the quiz-taker how they rank
+up against previous testers. These were not part of the requirements, but were still
+accomplished and implemented in TopQuiz.
+
+A video demonstration of our project, TopQuiz, may be found on Youtube. The link
+to access this video is as follows: 
+https://www.youtube.com/watch?v=osq4VmBD1vU&feature=youtu.be
+
+
+Notes:
+-To run the TopQuiz application, please execute the TopQuiz executable, TopQuiz.jar:
+
+> java -jar TopQuizV2/TopQuiz.jar
+
+-In the event that the question_bank.ser file is missing or malfunctional, please run 
+the main method in the GenerateQuestionBank class via the GenerateQuestionBank.jar 
+executable. The  GenerateQuestionBank class may be found in the topquizbackend package.
+
+> java -jar TopQuizv2/GenerateQuestionBank.jar
+
+-Should the user wish to reset the list of displayed results, simply delete the file,
+results.txt from the project in order to clear all previous-test results. When TopQuiz
+is run after the deletion of results.txt, the completion of the quiz will generate a
+new version of results.txt. Otherwise, all results will simply be concatenated to the
+end of any existing results.txt existent within the Java project.
+
+
+
+---Java Version and IDE used---
+Shiva's Java IDE: Eclipse 2019-12
+Eric's Java IDE: Netbeans 8.0
+
+Java Version:
+openjdk version "1.8.0_232"
+OpenJDK Runtime Environment (build 1.8.0_232-8u232-b09-1~deb9u1-b09)
+OpenJDK 64-Bit Server VM (build 25.232-b09, mixed mode)
