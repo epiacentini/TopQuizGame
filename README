@@ -7,14 +7,12 @@ relatively challenging, though still within the expectation that children should
 basic facts about United States history and civics. Many of the questions in TopQuiz 
 are in fact taken from sample questions given on U.S. Citizenship exams.
 
-TopQuiz offers more than just the minimum requirements for a two-person project. We
-have also implemented multi-threading in order to add a Timer to each individual
+TopQuiz was implemented with multi-threading in order to add a Timer to each individual
 question, so that the user cannot simply take forever to answer each question. If 
 the user fails to answer the question in the time alloted, their result is taken as-is.  
 TopQuiz also displays a list of previous users' scores and the times they completed
 the quiz at the end of the Quiz, as a means of showing the quiz-taker how they rank
-up against previous testers. These were not part of the requirements, but were still
-accomplished and implemented in TopQuiz.
+up against previous testers.
 
 Notes:
 -To run the TopQuiz application, please execute the TopQuiz executable. To do so,
