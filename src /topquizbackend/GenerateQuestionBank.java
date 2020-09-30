@@ -9,7 +9,7 @@ import java.util.*;
  * This class is used to generate all the Questions used in the final-product of this application.
  * Its sole purpose is to generate the "question_bank.ser" file.
  * 
- * @author keshavgovindaraju
+ * @author ericpiacentini
  *
  */
 public class GenerateQuestionBank {
