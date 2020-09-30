@@ -10,7 +10,7 @@ import java.util.*;
  * Question, MultipleChoiceQuestion, ShortAnswerQuestion, and QuestionBank are
  * working as intended.
  * 
- * @author epiacentini
+ * @author eric piacentini
  *
  */
 public class BackEndTester {
