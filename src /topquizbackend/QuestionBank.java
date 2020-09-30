@@ -15,7 +15,7 @@ import java.time.*;
  * from any .ser file containing Questions (stored in an ArrayList), but also methods 
  * for writing and reading from results from a text file.
  * 
- * @author keshavgovindaraju
+ * @author ericpiacentini
  *
  */
 public class QuestionBank {
