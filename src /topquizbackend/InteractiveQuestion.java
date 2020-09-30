@@ -11,7 +11,7 @@ import javax.swing.ImageIcon;
  * and the methods needed in the back-end for the proper execution of
  * front-end methods.
  * 
- * @author keshavgovindaraju
+ * @author ericpiacentini
  *
  */
 public class InteractiveQuestion extends Question {
