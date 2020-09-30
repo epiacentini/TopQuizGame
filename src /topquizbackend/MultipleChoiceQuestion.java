@@ -8,7 +8,7 @@ package topquizbackend;
  * and the methods needed in the back-end for the proper execution of
  * front-end methods.
  * 
- * @author keshavgovindaraju
+ * @author ericpiacentini
  *
  */
 public class MultipleChoiceQuestion extends Question {
