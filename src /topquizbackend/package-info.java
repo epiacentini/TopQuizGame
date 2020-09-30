@@ -6,7 +6,7 @@
  * The vast-majority of Back-End methods, objects and data members may be found and accessed
  * through this package.
  * 
- * @author keshavgovindaraju
+ * @author ericpiacentini
  *
  */
 package topquizbackend;
