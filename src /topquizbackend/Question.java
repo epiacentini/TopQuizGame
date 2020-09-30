@@ -12,7 +12,7 @@ import java.io.*;
  * It possesses the basic private variables for all Questions, as well as the basic
  * methods for getters and checking a given answer to the question.
  * 
- * @author keshavgovindaraju
+ * @author ericpiacentini
  *
  */
 public class Question implements Serializable {
